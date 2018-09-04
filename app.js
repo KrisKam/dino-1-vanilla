@@ -1,6 +1,7 @@
 document.addEventListener("submit", event => {
   event.preventDefault();
-   return addFormData();
+  addFormData();
+  return event.target.reset();
 })
 
 function addFormData() {
